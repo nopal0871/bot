@@ -84,12 +84,12 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │• Online : *%uptime*
 │• Total User : *%totalreg nomor*
 │• GitHub : *PRIVATE*
-│• Nomor Owner : *wa.me/085294959195*
+│• Nomor Owner : *wa.me/085781628368*
 │
 ╰────
 
 ╭─「 Jadwal Aktif 」
-│• 09.00-20.00
+│• SEMAU NYA OWNER
 ╰────
 
 ╭─「 Rules Bot 」
@@ -98,13 +98,13 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╰────
 
 ╭─「 Join Group 」
-│https://chat.whatsapp.com/DjcHH6a2Zpy2by4V2LSjzm
+│PRIVAT
 ╰────
 %readmore`
     let header = conn.menu.header || '╭─「 %category 」'
     let body   = conn.menu.body   || '│• %cmd%islimit'
     let footer = conn.menu.footer || '╰────\n'
-    let after  = conn.menu.after  || 'DHAMZ BOT'
+    let after  = conn.menu.after  || 'OXXY BOT'
     let _text  = before + '\n'
     for (let tag in groups) {
       _text += header.replace(/%category/g, tags[tag]) + '\n'
